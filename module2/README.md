@@ -1,0 +1,1 @@
+<h1 align="center">Module 2 - Data types</h1>
