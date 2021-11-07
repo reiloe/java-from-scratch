@@ -282,7 +282,7 @@ public void doSomething(TypB parameterB, TypA parameterA) {
 }
 ```
 
-Same name, same amount of parameters but order of parameters are differ.
+Same name, same amount of parameters but order and type of parameters are differ.
 
 But now let's get back.
 We have implemented the so-called **main method**. The main method has always to look like how we have implemented yet:
