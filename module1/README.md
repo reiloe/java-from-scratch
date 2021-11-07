@@ -24,7 +24,7 @@ You can download a JDK from the following websites (Be sure you download the JDK
 
 I recommend to download the installer package (msi, rpm, deb, dmg) for your operating system but if you want you can download the zip/tar.gz archive as well.
 
-#### Installtion of the JDK
+#### Installation of the JDK
 
 Once you've downloaded the installer, the installation is pretty straightforward.
 
@@ -42,20 +42,20 @@ Alternate way :
 
 - Windows
   - Press the Windows-Key on your keyboard
-  - Type: <strong>cmd</strong> and hit enter
+  - Type: **cmd** and hit enter
   
 - OSX
   - Press cmd+space on your keyboard
-  - Type: <strong>terminal</strong> and hit enter
+  - Type: **terminal** and hit enter
 
 - Linux (Ubunut/Mint)
   - Press Ctrl+Alt+T 
 
 - Linux (Debian)
   - Press Alt+F2
-  - Type: <strong>terminal</strong> and hit enter
+  - Type: **terminal** and hit enter
 
-In the console window type <strong>echo $JAVA_HOME</strong> and hit enter.
+In the console window type **echo $JAVA_HOME** and hit enter.
 
 ![JAVA_HOME](img/JAVA_HOME.png)
 
@@ -64,22 +64,22 @@ If no path is displayed, you must set the JAVA_HOME variable.
 - Windows
   - Right click My Computer and select Properties.
   - On the Advanced tab, select Environment Variables
-  - Click on <strong>New...</strong> Button under the <strong>User variables</strong> window
-  - In the new window type <strong>JAVA_HOME</strong> in the name field. In the <strong>values</strong> field you have to write the path to the installation of the JDK (ex.: C:\Program Files\Java\adoptopenjdk-11\bin). Click <strong>OK</strong> to leave this window.
-  - You have to click <strong>OK</strong> twice to leave the settings window.
+  - Click on **New...** Button under the **User variables** window
+  - In the new window type **JAVA_HOME** in the name field. In the **values** field you have to write the path to the installation of the JDK (ex.: C:\Program Files\Java\adoptopenjdk-11\bin). Click **OK** to leave this window.
+  - You have to click **OK** twice to leave the settings window.
 
 - Linux/OSX
-  - Depending on your shell (zsh/bash and so on) you have to search for a hidden file in your home directory. Name of the file could be <strong>.profile</strong>, <strong>.zshrc</strong> or something like that. 
+  - Depending on your shell (zsh/bash and so on) you have to search for a hidden file in your home directory. Name of the file could be **.profile**, **.zshrc** or something like that. 
   - Open that file with vi/vim/nano (could be empty) and pass in the following lines:
 
 ![JAVA_PATH](img/java-path.png)
 
   - Save and close the file
-  - Restart the shell or type <strong>source .theFileName</strong> and hit enter
+  - Restart the shell or type **source .theFileName** and hit enter
 
-  To check that you have done right open the cmd/shell and type <strong>$echo JAVA_HOME</strong> and hit enter. You should see the path to to installed JDK.
+  To check that you have done right open the cmd/shell and type **$echo JAVA_HOME** and hit enter. You should see the path to to installed JDK.
 
-  To check the version of Java type <strong>java --version</strong> and hit enter. You should see the installed version of the JDK.
+  To check the version of Java type **java --version** and hit enter. You should see the installed version of the JDK.
 
   ![JAVA_Version](img/java--version.png)
 
@@ -135,9 +135,9 @@ First create a directory.
   - Open a console window
   - Check that you are in your home folder 
     - Type: pwd
-    - If you see something like <strong>/user/ *yourusername*</strong>, you're already in your home folder
-    - If you are not in your home directory, type: **cd ~** and press enter.
-    - Check again by typing **pwd **.
+    - If you see something like **/user/_yourusername_**, you're already in your home folder
+    - If you are not in your home directory, type: <strong>cd ~</strong> and press enter.
+    - Check again by typing **pwd**.
   - Create a new directory in your home directory by typing **mkdir java-from-scratch** (or whatever you want to name the directory) and pressing Enter 
   - Type **ls** and press Enter to verify that the folder was created successfully
 
@@ -146,13 +146,13 @@ The name of the file is important. I'll explain why in a minute.
 
 - Linux/Mac
   - In the console window navigate in the recent created directory.
-  - Type **touch HelloJava.java** and hit enter
-  - Type **ls** and hit enter to check that the file was created
+  - Type: **touch HelloJava.java** and hit enter
+  - Type: **ls** and hit enter to check that the file was created
 
 - Windows
   - In the console window navigate in the recent created folder
-    - Type **type nul > HelloJava.java** and hit enter
-    - Type **dir** and hit enter to check that the file was created
+    - Type: **type nul > HelloJava.java** and hit enter
+    - Type: **dir** and hit enter to check that the file was created
   - If you are the Windows Explorer you don't need to create a file first. You create a new File with the Editor and save that file into the recent created folder
     - Open Notepad or Notepad++ and create a new blank file and save this file with name **HelloJava.java**
 
